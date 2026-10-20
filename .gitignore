@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.env
+# exported progress files contain your solutions and explanations
+js-forge-progress-*.json
