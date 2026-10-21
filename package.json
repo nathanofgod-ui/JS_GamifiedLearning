@@ -1,0 +1,13 @@
+{
+  "name": "js-forge",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Learn serious vanilla JavaScript by writing it: hidden tests, AI code reviews, spaced repetition and a capstone board you build yourself.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node --test \"tests/*.test.js\"",
+    "test:board": "node --test \"board/test/*.test.js\""
+  }
+}
